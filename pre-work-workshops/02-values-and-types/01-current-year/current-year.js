@@ -1,2 +1,3 @@
 // YOUR CODE BELOW
-console.log(2000+18-2*1+7)
+let operator=2000+18-2*1+7
+console.log(operator)
