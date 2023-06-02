@@ -1,4 +1,4 @@
 // YOUR CODE BELOW
 
-let myGuess=2015;
+let myGuess=400;
 console.log(myGuess);
