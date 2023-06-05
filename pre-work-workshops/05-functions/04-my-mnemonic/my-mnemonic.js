@@ -15,9 +15,6 @@ function myMnemonic(name1, name2, name3, name4){
     if(name4){
         str += name4[0]
     }
-    // str += name1[0];
-
-    // str = str + name1[0] + name2[0] + name3[0] + name4[0]
 
     return str;
 
