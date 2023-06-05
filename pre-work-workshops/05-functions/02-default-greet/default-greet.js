@@ -1,10 +1,23 @@
 // YOUR CODE BELOW
 
-function defaultGreet(){
-    console.log("Hi Chaka Khan!")
-    return ("Hi John Doe")
+// function defaultGreet(fName, lName){
+//     console.log("Hi " + fName + lName")
+
+//     return ("Hello " + fname + lname")
+    
+// }
+
+
+// defaultGreet("Chaka","Khan");
+// defaultGreet("John");
+
+function defaultGreet(fName , lName = "Doe!"){
+    console.log("Hi" , fName , lName)
+    
+    return ("Hi" +" " +fName + " " + lName )
+    
+    
     
 }
-
-defaultGreet("Chaka","Khan");
+defaultGreet("Chaka","Khan!");
 defaultGreet("John");
