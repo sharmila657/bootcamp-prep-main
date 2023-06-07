@@ -12,7 +12,7 @@ the type of the value tested.
 'The null value is falsey'
 'undefined is falsey'
 'The number 0 is falsey (the only falsey number)'
-'The empty string is falsey (the only falsey string)'
+'The number 0 is falsey (the only falsey number)'
 ```
 
 ```javascript
