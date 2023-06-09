@@ -17,13 +17,6 @@ function myLastIndexOf(array, searchValue, startIdx = array.length - 1) {
         }
         
     }
-
-
-
-
-
-
-
     return -1;
     }
     
