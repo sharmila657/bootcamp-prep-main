@@ -1,59 +1,38 @@
-// // YOUR CODE BELOW
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// YOUR CODE BELOW
 
 // function unShift(array, value) {
-//     let newArray = [value]; // Create a new array with the given value as the first element
-//     for (let element of array) {
-//       newArray.push(element); // Add all the elements from the original array
+//     let newArray = [value];
+//     for (let i = 0; i < array.length; i++) {
+//         newArray.push(value);
 //     }
-//     return newArray;
-//   }
+//     return newArray;   
+// }
+// console.log(unShift([1, 2, 3], 0));
+
+function unShift(array, value) {
+    let newArray = [value];
+    for (let element of array) {
+        newArray.push(element);
+    
+    }
+    return newArray;
+}
+console.log(unShift([1, 2, 3], 0))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
