@@ -1,7 +1,9 @@
 
 function oddCouple(numbers) {
+    debugger
     let oddNumbers = [];
-    for (let num of numbers) {
+    for (let i = 0; i < numbers.length; i++) {
+        let num = numbers[i];
         if (num % 2 !== 0) {
             oddNumbers.push(num);
             if (oddNumbers.length === 2) {

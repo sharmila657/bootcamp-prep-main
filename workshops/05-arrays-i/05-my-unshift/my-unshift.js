@@ -18,7 +18,7 @@ function unShift(array, value) {
     return newArray;
 }
 console.log(unShift([1, 2, 3], 0))
-
+Array.isArray
 
 
 
