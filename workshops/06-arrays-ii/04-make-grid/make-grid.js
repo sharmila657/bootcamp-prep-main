@@ -15,3 +15,11 @@ function makeGrid(Colums, Rows) {
     return grid;
 }
 console.log(makeGrid(3, 4));
+
+// function makeGrid(numColumns, numRows) {
+//     let grid = [];
+
+//     for 
+// }
+
+
