@@ -1,16 +1,16 @@
 // YOUR CODE BELOW
 
 function zooInventory(zoo) {
-    let sentences = [];
+    let inventory = [];
     for (let i = 0; i < zoo.length; i++){
         let animal = zoo[i][0];
         let species = zoo[i][1][0];
         let age = zoo[i][1][1];
 
-        let sentence = "{animal} the {species} is {age}"
-        sentences.push(sentence);
+        let sentence = animal + " the " + species + " is " + age + ".";
+        inventory.push(sentence);
     }
-    return sentences;
+    return inventory;
     
 }
 let myZoo = [
