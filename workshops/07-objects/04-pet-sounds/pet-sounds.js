@@ -38,3 +38,82 @@ let animalNoises = [
 ];
 
 // YOUR CODE BELOW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function petSounds(animal, country) {
+//   // Find the object that matches the animal
+//   const animalObject = animalNoises.find(obj => obj.animal === animal);
+
+//   // If the animal is not found, return null
+//   if (!animalObject) {
+//     return null;
+//   }
+
+//   // Find the noise that matches the country
+//   const noise = animalObject.noises[country];
+
+//   // If the country is not found, return null
+//   if (!noise) {
+//     return null;
+//   }
+
+//   // Construct and return the sentence
+//   return `${animalObject.animal}s in ${country} say ${noise}`;
+// }
