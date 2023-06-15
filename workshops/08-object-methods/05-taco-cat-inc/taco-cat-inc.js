@@ -23,3 +23,9 @@ let tacoCatInc = {
 };
 
 // YOUR CODE BELOW
+
+let object = {
+  currentInventory:function(){
+    
+  }
+}
