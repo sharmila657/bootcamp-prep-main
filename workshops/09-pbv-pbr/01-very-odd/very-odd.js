@@ -6,15 +6,11 @@ function veryOdd(allTheNums) {
     for (i = 0; i < allTheNums.length; i++) {
         let num = allTheNums[i];
         if (num % 2 !== 0) {
-        newArray.push(num)
+            newArray.push(num);
+            
 
         }
-        else {
-            newArray.push(num)
-        }
-        
-        
-    }
+      }
     return newArray
     
 }
@@ -23,3 +19,7 @@ let oddNums = veryOdd(allTheNums);
 
 console.log('oddNums: ', oddNums);
 console.log('allTheNums:', allTheNums);
+
+
+
+
