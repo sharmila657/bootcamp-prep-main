@@ -1,6 +1,6 @@
 let name = "David";
 // let name = 'Nimit';
-// let name = 'Someone else';
+//  let name = 'Someone else';
 
 let found = true
 
@@ -14,7 +14,11 @@ else if(name === "Nimit"){
     console.log(found)
 }
 
-else if(name==="Someone else"){
-console.log("false")
+
+
+    
+else if (name === "Someone else") {
+found = false
+console.log(found)
     
 }
