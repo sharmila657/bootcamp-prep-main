@@ -38,3 +38,22 @@ let classRoom = [
 ];
 
 // YOUR CODE BELOW
+
+function attendanceCheck(day) {
+    debugger
+    let finalArray = []
+    for (let k = 0; k < classRoom.length; k++) {
+        for (keys in classRoom[k]) {
+            let days = classRoom[k][keys]
+            for (let i = 0; i < days.length; i++) {
+                if (days[i][day]) {
+                    finalArray.push(keys)
+                }
+            }
+        }
+    }
+    console.log(finalArray)
+    return finalArray
+}
+
+attendanceCheck('Wednesday')
