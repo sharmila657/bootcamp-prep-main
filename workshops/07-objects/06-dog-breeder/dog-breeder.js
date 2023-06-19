@@ -1,9 +1,7 @@
 // YOUR CODE BELOW
 debugger
 function dogBreeder(name, age) {
-    let object = {
-
-    }
+    let object = {} 
     if (typeof name === "number") {
         object["name"] = "Steve"
         object["age"]= name
