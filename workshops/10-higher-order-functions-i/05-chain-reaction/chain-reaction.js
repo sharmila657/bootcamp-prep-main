@@ -1,5 +1,5 @@
 // YOUR CODE BELOW
-
+debugger
 function chainReaction(startVal, arrayFunc) {
     let num = startVal;
     for (let i = 0; i < arrayFunc.length; i++){
