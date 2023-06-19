@@ -1,30 +1,23 @@
 // YOUR CODE BELOW
-
 debugger
-
-function billerBuilder(state) {
-    if (state === 'NY') {
-        return function (price) {
-            let shippingCost = price * 0.03;
-            let tax = (price + shippingCost) * 0.04;
-            let finalPrice = price + shippingCost + tax;
-            return finalPrice;
-        }
-    }
-    else if (state === 'NJ') {
-        return function (price) {
-            let shippingCost = price * 0.05;
-            let tax = (price + shippingCost) * 0.06625;
-            let finalPrice = price + shippingCost + tax;
-            return finalPrice;
-        }
-    }
-    else {
-        return function (price) {
-            return price;
-        }
-    }
+let NYFunc = function(price)
+{
+    return price * 1.03 * 1.04; 
 }
+
+let NJFunc = function(price)
+{
+    return price * 1.05 * 1.06625;
+}
+function billerBuilder(state)
+{
+    if(state === 'NY')
+    {
+        return NYFunc;
+    }
+    return NJFunc;
+}
+
 
 
 let newYorkBiller = billerBuilder('NY');
