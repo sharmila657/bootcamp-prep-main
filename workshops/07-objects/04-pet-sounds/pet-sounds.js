@@ -38,6 +38,27 @@ let animalNoises = [
 ];
 
 // YOUR CODE BELOW
+debugger;
+
+function petSounds(animal, country) {
+  let newString = ''
+  for (let k = 0; k < animalNoises.length; k++) {
+      let element = animalNoises[k]
+      for (key in element) {
+          if (key === animal) {
+              let sound = element[key][country]
+              finalString =
+                  animal.charAt(0).toUpperCase() +
+                  animal.slice(1) + 's' +' in ' + country +' say ' + sound
+          }
+      }
+  }
+  console.log(newString)
+  return newString
+}
+console.log(petSounds('dog', 'Iceland')); 
+
+console.log(petSounds('cat','Korea'))
 
 
 
