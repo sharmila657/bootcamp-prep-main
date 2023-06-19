@@ -6,6 +6,8 @@ function timesTable(number) {
         
     }
 }
+
+
 let ninesTable = timesTable(9);
 console.log(ninesTable(8))
 
