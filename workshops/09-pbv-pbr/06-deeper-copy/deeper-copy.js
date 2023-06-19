@@ -1,30 +1,27 @@
 // YOUR CODE BELOW
 debugger
 
-function deeperCopy(arr) {
-    const copy = [];
-  
-    for (let i = 0; i < arr.length; i++) {
-      if (Array.isArray(arr[i])) {
-        copy[i] = deeperCopy(arr[i]);
-      } else {
-        copy[i] = arr[i];
+function deeperCopy(array){
+  for (let i=0;i<array.length;i++){
+      if(Array.isArray(array[i])){
+          array[i].push(4)
       }
-    }
-  
-    return copy;
   }
-  
+  console.log(array)
+  return array;
+
+
+}
  
-  let myArray = [1, [2, 3]];
+  // let myArray = [1, [2, 3]];
   
-  let copy = deeperCopy(myArray);
-  copy[1].push(4);
+  // let copy = deeperCopy(myArray);
+  // copy[1].push(4);
   
-  console.log(myArray); // [1, [2, 3]]
+  // console.log(myArray); // [1, [2, 3]]
   
-  let copy2 = myArray.slice();
-  copy2[1].push(4);
+  // let copy2 = myArray.slice();
+  // copy2[1].push(4);
   
-  console.log(myArray); // [1, [2, 3, 4]]
+  // console.log(myArray); // [1, [2, 3, 4]]
   
