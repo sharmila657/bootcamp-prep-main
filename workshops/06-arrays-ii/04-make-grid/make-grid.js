@@ -1,25 +1,19 @@
 // YOUR CODE BELOW
-function makeGrid(Colums, Rows) {
-    debugger
-    let grid = [];
+function makeGrid(colums, rows) {
+    let row = [];
+    for (let i = 0; i < rows; i++) {
+        let colum = [];
+        for (let j = 1; j <= colums; j++){
+            colum.push(j)
 
-    for (let i = 0; i < Rows; i++) {
-        let row = [];
-        
-        for (let j = 1; j <= Colums; j++){
-            row.push(j);
+
         }
-        grid.push(row);
+        row.push(colum)
         
     }
-    return grid;
+    return row;
 }
 console.log(makeGrid(3, 4));
 
-// function makeGrid(numColumns, numRows) {
-//     let grid = [];
-
-//     for 
-// }
 
 
