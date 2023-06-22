@@ -2,7 +2,7 @@
 debugger
 function myReverse(array) {
     let reversedArray = [];
-    for (let i = (array.length)-1; i >= 0; i++) {
+    for (let i = array.length-1; i >= 0; i--) {
     // for(let i=array.length)
     
         reversedArray.push(array[i]);
