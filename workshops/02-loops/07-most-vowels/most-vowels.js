@@ -1,4 +1,4 @@
-// // YOUR CODE BELOW
+// // // YOUR CODE BELOW
 
 
 debugger
@@ -7,11 +7,11 @@ function mostVowels(arg1) {
     let highestvowel = 0;
     let currentletter = "";
     let highestvowelletter = ""; 
-    for (let i = 0; i < arg1.length; i++){
-        if (arg1[i] === "a" || arg1[i] === "e" || arg1[i] === "i" || arg1[i] === "o"|| arg1[i] === "u"|| arg1[i] === "I") {
+    for (let i = 0; i < arg1.length; i++) {
+        if (arg1[i] === "a" || arg1[i] === "e" || arg1[i] === "i" || arg1[i] === "o" || arg1[i] === "u" || arg1[i] === "I") {
             currentvowel++
         }
-        if (arg1[i] === " ") {
+        if (arg1[i] === " " || arg1[i] ===".") {
             if (currentvowel > highestvowel) {
                 highestvowel = currentvowel
                 highestvowelletter = currentletter
@@ -25,8 +25,11 @@ function mostVowels(arg1) {
         else {
             currentletter += arg1[i]
         }
-
-
+    }
+        if (currentvowel > highestvowel) {
+            highestvowel = currentvowel;
+            highestvowelletter = currentletter;
+      
     }
 
     return highestvowelletter;
@@ -34,6 +37,7 @@ function mostVowels(arg1) {
 }
 console.log(mostVowels('gi fe peev '));
 console.log(mostVowels("Peeves"));
+console.log(mostVowels('I am a keeper with some real rhythms'));
 console.log(mostVowels('I am a keeper with some real rhythms'));
 
 
