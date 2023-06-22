@@ -1,12 +1,5 @@
 // // YOUR CODE BELOW
-// function myLastIndexOf(array, searchValue, startIdx = array.length - 1) {
-//     for (let i = startIdx; i >= 0; i--) {
-//       if (array[i] === searchValue) {
-//         return i; // Found a match, return the index
-//       }
-//     }
-//     return -1; // No match found, return -1
-//   }
+
   
 function myLastIndexOf(array, searchValue, startIdx = array.length - 1) {
     for (let i = startIdx; i >= 0; i--){
