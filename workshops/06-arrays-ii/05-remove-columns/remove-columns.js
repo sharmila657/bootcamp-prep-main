@@ -16,7 +16,7 @@ function removeColumns(originalGrid, numColumns) {
       newGrid.push(newRow);
     }
   
-    return newGrid;
+    return newGrid
 }
  
 console.log(removeColumns([[1, 2, 3],
