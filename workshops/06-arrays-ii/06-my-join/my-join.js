@@ -15,7 +15,7 @@ function myJoin(array, separator = ',') {
       }
     }
   
-    return result;
+    return result
   }
 console.log(myJoin(['let\'s', 'make', 'a', 'list'], ' '));
 console.log(myJoin(['a', 'b', 'c'], '+'));
