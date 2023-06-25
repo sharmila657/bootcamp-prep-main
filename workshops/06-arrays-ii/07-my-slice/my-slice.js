@@ -8,7 +8,7 @@ function mySlice(originalArray, startIdx, endIdx) {
     
     }
 
-    // if (startIdx !== undefined && endIdx === undefined) {
+    // if (startIdx !== undefined && endIdx === undefined) 
     
     if (startIdx < 0) {
         startIdx = originalArray.length + startIdx;
