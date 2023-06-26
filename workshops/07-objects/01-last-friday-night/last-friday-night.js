@@ -4,7 +4,7 @@ function lastFridayNight(transactions) {
     for (let i = 0; i < transactions.length; i++){
         totalAmount += transactions[i].amount;
     }
-    return totalAmount;
+  return totalAmount;
 }
 let transactions = [
     {
